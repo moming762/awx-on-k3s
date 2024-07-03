@@ -6,7 +6,7 @@ namespace: awx
 generatorOptions:
   disableNameSuffixHash: true
 
-# secretGenerator:
+secretGenerator:
 #   - name: awx-secret-tls
 #     type: kubernetes.io/tls
 #     files:
